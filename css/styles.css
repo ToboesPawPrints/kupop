@@ -1,0 +1,21 @@
+.jumbotron {
+    background: white;
+    padding-top: 0.5rem;
+}
+
+/*Add SCSS later to make nested child rules*/
+#header-logo {
+    width: 90%;
+    height: auto;
+    margin-top: none;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    font-size: 1.7rem;
+    margin: 3rem;
+}
