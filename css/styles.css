@@ -16,6 +16,22 @@ body {
 }
 
 .navbar {
-    font-size: 1.7rem;
+    font-size: 1.2em;
     margin: 3rem;
+}
+
+.no-margins {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+background: url('\images\tavern.jpg');
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-size: cover;
 }
