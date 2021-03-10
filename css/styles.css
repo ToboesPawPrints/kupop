@@ -26,12 +26,11 @@ body {
 }
 
 #banner {
-background: url('\images\tavern.jpg');
+background-image: url('/images/tavern.jpg');
 height: 100%;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-background-size: cover;
 }
