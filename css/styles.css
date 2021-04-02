@@ -45,9 +45,9 @@ position: relative;
 
 #banner2 {
     background-image: url('/images/crystal2.jpg');
-    height: 35rem;
+    height: 15rem;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -61,4 +61,8 @@ h1 {
 
 .welcome-text {
     padding: 0rem 20rem 0rem 20rem;
+}
+
+.text-spacing {
+    padding: 2rem 20rem 0rem 20rem;
 }
