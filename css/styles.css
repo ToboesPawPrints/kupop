@@ -45,7 +45,7 @@ position: relative;
 
 #banner2 {
     background-image: url('/images/crystal2.jpg');
-    height: 15rem;
+    height: 21rem;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -58,11 +58,22 @@ h1 {
     padding-bottom: 1rem;
 
 }
+/* CSS rules for banner text */
 
 .welcome-text {
     padding: 0rem 20rem 0rem 20rem;
 }
 
+/* CSS rules for basic spacing*/ 
+
 .text-spacing {
     padding: 2rem 20rem 0rem 20rem;
+}
+
+.card-img-overlay {
+    opacity: 50%;
+}
+
+.black-bg {
+    background-color: black;
 }
