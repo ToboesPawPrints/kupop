@@ -27,6 +27,7 @@ body {
     padding-right: 0;
     padding-left: 0;
     padding-top: 5rem;
+
 }
 
 /* First Banner */
@@ -39,18 +40,21 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+border-radius: 5px;
 }
 
 /* 2nd Banner */
 
 #banner2 {
     background-image: url('/images/crystal2.jpg');
+    background-color: black;
     height: 21rem;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border-radius: 5px;
     }
 
 h1 {
@@ -72,8 +76,10 @@ h1 {
 
 .card-img-overlay {
     opacity: 50%;
+
 }
 
 .black-bg {
     background-color: black;
+    border-radius: 0px;
 }
