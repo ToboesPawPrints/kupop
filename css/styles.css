@@ -24,8 +24,12 @@ body {
 
 .no-margins {
     margin: 0;
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 5rem;
 }
+
+/* First Banner */
 
 #banner {
 background-image: url('/images/tavern.jpg');
@@ -37,7 +41,24 @@ background-size: cover;
 position: relative;
 }
 
-h1 {
-    padding: 2rem;
+/* 2nd Banner */
 
+#banner2 {
+    background-image: url('/images/crystal2.jpg');
+    height: 35rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
+h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.welcome-text {
+    padding: 0rem 20rem 0rem 20rem;
 }
