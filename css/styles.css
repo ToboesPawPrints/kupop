@@ -36,3 +36,8 @@ background-repeat: no-repeat;
 background-size: cover;
 position: relative;
 }
+
+h1 {
+    padding: 2rem;
+
+}
