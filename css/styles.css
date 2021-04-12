@@ -22,6 +22,16 @@ body {
     margin: 3rem;
 }
 
+p {
+    font-size: 19px;
+}
+
+button {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
 .no-margins {
     margin: 0;
     padding-right: 0;
@@ -33,15 +43,14 @@ body {
 /* First Banner */
 
 #banner {
-background-image: url('/images/tavern.jpg');
-height: 35rem;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-border-radius: 5px;
-}
+    background-image: url('/images/tavern.jpg');
+    height: 35rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+    }
 
 /* 2nd Banner */
 
@@ -76,10 +85,19 @@ h1 {
 
 .card-img-overlay {
     opacity: 50%;
-
 }
 
-.black-bg {
+.card-black {
     background-color: black;
-    border-radius: 0px;
+}
+
+
+#quiz-btn {
+    background-color: white;
+    opacity: 100%;
+    height: 5rem;
+    width: 16rem;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
 }
