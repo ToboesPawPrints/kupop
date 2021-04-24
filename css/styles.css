@@ -1,8 +1,7 @@
 .jumbotron {
     background: white;
     padding-top: 0.5rem;
-    padding-bottom: 0.05rem;
-    margin-bottom: 0;
+    padding-bottom: 0rem;
 }
 
 /*Add SCSS later to make nested child rules*/
@@ -10,6 +9,7 @@
     width: 90%;
     height: auto;
     margin-top: none;
+
 
 }
 
@@ -22,21 +22,23 @@ body {
     margin: 3rem;
 }
 
-p {
-    font-size: 19px;
+.navbar:hover {
+    color: white;
 }
 
-button {
-    font-size: 1.2rem;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+.nav-item:hover {
+    background-color:#920011;
+}
+
+p {
+    font-size: 19px;
 }
 
 .no-margins {
     margin: 0;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 5rem;
+
 
 }
 
@@ -91,6 +93,40 @@ h1 {
     background-color: black;
 }
 
+.btn {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+btn:hover {
+    background: #920011;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin:1rem;
+}
+
+a {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #920011;
+}
+
+a:hover {
+    color: #920011;
+    text-decoration: none;
+}
 
 #quiz-btn {
     background-color: white;
@@ -100,4 +136,14 @@ h1 {
     z-index: 1;
     text-align: center;
     margin: auto;
+}
+
+
+#quiz-btn:hover {
+    background: #920011;
+    color: white;
+}
+
+.border-top {
+    border-top: 5px solid #920011!important;
 }
