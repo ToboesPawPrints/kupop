@@ -68,6 +68,18 @@ p {
     border-radius: 5px;
     }
 
+
+    #quizBanner {
+        background-image: url('/images/112225.jpg');
+        height: 35rem;
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: 5px;
+        }
+
 h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
