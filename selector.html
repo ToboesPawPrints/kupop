@@ -93,24 +93,159 @@
             <div class="col text-center">
                 <p>
                 <form>
+                    <!--Question 1-->
                     <legend>Have you ever played an MMO before?</legend>
                     <p>
                     <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="mmoY" name="mmo"
-                            class="custom-control-input">
+                        <input type="radio" id="mmoY" name="mmo" class="custom-control-input">
                         <label class="custom-control-label" for="mmoY">Yes</label>
                     </div>
                     <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="mmoN" name="mmo"
-                            class="custom-control-input">
+                        <input type="radio" id="mmoN" name="mmo" class="custom-control-input">
                         <label class="custom-control-label" for="mmoN">No</label>
                     </div>
+                    </p>
+
+                    <!--A modal will be inserted into the legend that will pop up with a brief description of each role-->
+                    <!--Question 2-->
+                    <legend>Are you familiar with the roles tank, DPS, and healer?</legend>
+                    <p>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="roleY" name="role" class="custom-control-input">
+                        <label class="custom-control-label" for="roleY">Yes</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="roleN" name="role" class="custom-control-input">
+                        <label class="custom-control-label" for="roleN">No</label>
+                    </div>
+                    </p>
+                    <!--Question 3-->
+                    <legend>Which play style sounds the most appealing?</legend>
+                    <p>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="tank" name="playS" class="custom-control-input">
+                        <label class="custom-control-label" for="tank">
+                            I want to lead the party into battle and be the primary target for the enemy.
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="meleeA" name="playS" class="custom-control-input">
+                        <label class="custom-control-label" for="meleeA">
+                            I want to do maximum damage as fast as possible with minimum cooldowns.
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="rangedD" name="playS" class="custom-control-input">
+                        <label class="custom-control-label" for="rangedD">
+                            I want to focus on damage with an emphasis in AOE multi-target attacks.
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="support" name="playS" class="custom-control-input">
+                        <label class="custom-control-label" for="support">
+                            I want to support my allies with buffs but still focus on damage.
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="heal" name="playS" class="custom-control-input">
+                        <label class="custom-control-label" for="heal">
+                            I want to heal and buff my allies.
+                        </label>
+                    </div>
+                    </p>
+                    <p>
+
+                        <!--Question 4-->
+                        <legend>What other mechanics are important to you?</legend>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="mobility" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="mobility">
+                            Mobility
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="pets" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="pets">
+                            Pets
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="lowCast" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="lowCast">
+                            Low Ability Cast Time
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="caster" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="caster">
+                            Spell Caster
+                        </label>
+                    </div>
+
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="melee" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="melee">
+                            Melee Attacks
+                        </label>
+                    </div>
+
+                    </p>
+                    <p>
+                    <div class="custom-control custom-checkbox  custom-control-inline">
+                        <input type="checkbox" id="ranged" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="ranged">
+                            Ranged Attacks
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="aLight" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="aLight">
+                            Aesthetics - Light Armor
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="aHeav" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="aHeav">
+                            Aesthetics - Heavy Armor
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" id="complexR" name="classQ" class="custom-control-input">
+                        <label class="custom-control-label" for="complexR">
+                            Complex Skill Rotations
+                        </label>
+                    </div>
+                    </p>
+                    <p>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" id="complexP" name="classQ" class="custom-control-input">
+                            <label class="custom-control-label" for="complexP">
+                                Simple Skill Rotations <!--elephant-->
+                            </label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" id="buffCast" name="classQ" class="custom-control-input">
+                            <label class="custom-control-label" for="buffCast">
+                                Buff Casting <!--elephant-->
+                            </label>
+                        </div>
+
                     </p>
                 </form>
                 </p>
             </div>
         </div>
     </div>
+
 
 
     <!--Footer Start-->
