@@ -159,3 +159,7 @@ a:hover {
 .border-top {
     border-top: 5px solid #920011!important;
 }
+
+.selector {
+    margin: auto;
+}
