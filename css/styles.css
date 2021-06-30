@@ -9,8 +9,6 @@
     width: 90%;
     height: auto;
     margin-top: none;
-
-
 }
 
 body {
@@ -162,4 +160,12 @@ a:hover {
 
 .selector {
     margin: 40rem;
+}
+
+.question-margin {
+    margin-bottom: 2rem;
+}
+
+.par-margin {
+    margin-bottom: 3rem;
 }
