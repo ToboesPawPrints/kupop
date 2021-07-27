@@ -166,11 +166,9 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.playstyle-margin {
-    margin: auto;
+.playstyle-padding {
+    padding: 1rem;
 }
-
-
 
 .par-margin {
     margin-bottom: 3rem;
