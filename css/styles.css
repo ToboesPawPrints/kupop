@@ -47,8 +47,8 @@ p {
     height: 35rem;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background: cover;
+    background-position: right;
     border-radius: 5px;
     }
 
