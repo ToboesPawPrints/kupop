@@ -32,7 +32,12 @@ p {
     font-size: 19px;
 }
 
+.no-margins {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0
 
+}
 
 /* First Banner */
 
@@ -60,7 +65,6 @@ p {
     border-radius: 5px;
     }
 
-
     #quizBanner {
         background-image: url('/images/112225.jpg');
         height: 35rem;
@@ -76,6 +80,21 @@ h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
 
+}
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 767px) {
+    #banner2 {
+    background-image: url('/images/112225.jpg');
+    background-size: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    #banner2 {
+    background-image: url('/images/112225.jpg');
+    background-size: 25%;
+    }
 }
 
 
