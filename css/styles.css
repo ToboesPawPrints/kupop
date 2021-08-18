@@ -2,9 +2,12 @@
     background: white;
     padding-top: 0.5rem;
     padding-bottom: 0rem;
+    opacity: 90%;
 }
 
-
+.paragraph-margin {
+    margin: 1rem;
+}
 
 /*Add SCSS later to make nested child rules*/
 #header-logo {
@@ -15,10 +18,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-image: url('/images/crystal2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: black;
     color: white;
 }
 
@@ -42,20 +42,16 @@ p {
 
 .text-white {
     color: white;
-    
+
 }
 
 h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
+    margin: 0.5rem;
     color: white;
     opacity: revert;
     z-index: 1;
-}
-
-section {
-    background-color: black;
-    opacity: 20%
 }
 
 
@@ -78,9 +74,7 @@ section {
 
 /* CSS rules for basic spacing*/ 
 
-.text-spacing {
-    padding: 2rem 20rem 0rem 20rem;
-}
+
 
 
 
