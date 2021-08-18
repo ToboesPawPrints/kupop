@@ -40,22 +40,12 @@ p {
     font-size: 19px;
 }
 
-.text-white {
-    color: white;
-    
-}
-
 h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
     color: white;
-    opacity: revert;
+    opacity: 100%;
     z-index: 1;
-}
-
-section {
-    background-color: black;
-    opacity: 20%
 }
 
 
