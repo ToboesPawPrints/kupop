@@ -7,14 +7,7 @@
 
 .paragraph-margin {
     margin: 1rem;
-}
-
-
-/*Add SCSS later to make nested child rules*/
-#header-logo {
-    width: 90%;
-    height: auto;
-    margin-top: none;
+    padding: 2rem;
 }
 
 body {
@@ -32,4 +25,7 @@ h1 {
     z-index: 1;
 }
 
-
+.test-border {
+    border: red 1px solid;
+    margin: 1rem
+}
