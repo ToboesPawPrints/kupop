@@ -10,14 +10,6 @@
     padding: 2rem;
 }
 
-
-/*Add SCSS later to make nested child rules*/
-#header-logo {
-    width: 90%;
-    height: auto;
-    margin-top: none;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #171717;
@@ -36,4 +28,8 @@ h1 {
 .test-border {
     border: red 1px solid;
     
+}
+
+.container-fluid {
+    margin: 5rem;
 }
