@@ -27,9 +27,5 @@ h1 {
 
 .test-border {
     border: red 1px solid;
-    
-}
-
-.container-fluid {
-    margin: 5rem;
+    margin: 1rem
 }
