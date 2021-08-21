@@ -25,7 +25,14 @@ h1 {
     z-index: 1;
 }
 
-.test-border {
-    border: red 1px solid;
-    margin: 1rem
+h5 {
+    color: red;
+}
+
+.card-text {
+    color: red;
+}
+
+.card {
+    margin: auto;
 }
