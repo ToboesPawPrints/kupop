@@ -10,11 +10,16 @@
     padding: 2rem;
 }
 
+
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #171717;
     color: white;
 }
+
+
+
 
 h1 {
     padding-top: 2rem;
@@ -23,6 +28,10 @@ h1 {
     color: white;
     opacity: revert;
     z-index: 1;
+}
+
+h3 {
+    margin: 3rem;
 }
 
 h5 {
@@ -34,5 +43,9 @@ h5 {
 }
 
 .card {
-    margin: auto;
+    margin: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
 }
