@@ -46,9 +46,10 @@ h5 {
     z-index: -1;
 }
 
-.roles-padding {
-    padding-left: 3rem;
-    padding-right: 3rem;
+
+.btn-blocker {
+    max-width: 8.5rem;
+    min-width: 8.5rem;
 }
 
 .roles-buttons-top {
