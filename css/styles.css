@@ -30,6 +30,10 @@ h1 {
     z-index: 1;
 }
 
+h3 {
+    margin: 3rem;
+}
+
 h5 {
     color: red;
 }
