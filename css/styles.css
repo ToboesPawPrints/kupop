@@ -5,17 +5,19 @@
     opacity: 90%;
 }
 
-.paragraph-margin {
-    margin: 1rem;
-    padding: 2rem;
-}
-
-
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #171717;
     color: white;
+}
+
+.nav-item {
+    z-index: 1000;
+}
+
+.paragraph-margin {
+    margin: 1rem;
+    padding: 2rem;
 }
 
 h1 {
@@ -41,6 +43,7 @@ h5 {
 
 .card {
     margin: 1rem;
+    z-index: -1;
 }
 
 .roles-padding {
@@ -55,3 +58,4 @@ h5 {
 footer {
     margin-top: 4rem;
 }
+
