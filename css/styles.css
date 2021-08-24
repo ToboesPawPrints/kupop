@@ -46,6 +46,15 @@ h5 {
     margin: 1rem;
 }
 
+.roles-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.roles-buttons {
+    margin-top: 2rem;
+}
+
 footer {
     margin-top: 3rem;
 }
