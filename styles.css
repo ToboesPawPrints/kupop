@@ -60,3 +60,9 @@ footer {
     margin-top: 4rem;
 }
 
+
+.col-sm-4 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
