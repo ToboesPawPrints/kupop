@@ -6,3 +6,5 @@ $.carousel('pause').carousel({
 });
 
  
+
+ const roles = [healer, tank, dps];
