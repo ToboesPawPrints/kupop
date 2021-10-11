@@ -1,9 +1,10 @@
-function message() {
+/* function message() {
     alert("Welcome to Kupop!  This site is currently underconstruction, but please feel free to have a look around!");
 }
 $.carousel('pause').carousel({
 
 });
+*/
 
  
 class DPS {
@@ -13,7 +14,7 @@ class DPS {
         this.style = style
     }
     see(){
-        console.log(`The class is ${this.name} and is a ${this.type} and plays with $this.style.`)
+        console.log(`The class is ${this.name} and is a ${this.type} and plays with ${this.style}.`)
     }
 };
 
