@@ -6,3 +6,10 @@ $.carousel('pause').carousel({
 });
 
  
+class DPS {
+    constructor(name, type, style) {
+        this.name = name;
+        this.type = type
+        this.style = style
+    }
+}
