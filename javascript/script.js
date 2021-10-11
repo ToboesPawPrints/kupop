@@ -18,4 +18,4 @@ class DPS {
     }
 };
 
-const redMage = new DPS("Red Made", "Support", "Ranged")
+const redMage = new DPS("Red Made", "Support", "Ranged");
