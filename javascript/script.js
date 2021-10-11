@@ -16,3 +16,5 @@ class DPS {
         console.log(`The class is ${this.name} and is a ${this.type} and plays with $this.style.`)
     }
 };
+
+const redMage = new DPS("Red Made", "Support", "Ranged")
