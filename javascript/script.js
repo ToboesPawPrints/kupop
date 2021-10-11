@@ -12,4 +12,7 @@ class DPS {
         this.type = type
         this.style = style
     }
-}
+    see(){
+        console.log(`The class is ${this.name} and is a ${this.type} and plays with $this.style.`)
+    }
+};
