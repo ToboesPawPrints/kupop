@@ -31,5 +31,5 @@ class Tank {
 
 
 const redMage = new DPS("Red Made", "Support", "Ranged");
-const paladin = new Tank("Paladin", "Support", "Ranged")
+const paladin = new Tank("Paladin", "Support", "Melee")
 
