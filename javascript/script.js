@@ -31,7 +31,7 @@ class DPS extends Job {
 
 
 //DPS variables
-const redMage = new DPS("Red Made", "Support", "Ranged", "Ranged");
+const redMage = new DPS("Red Made", "DPS", "Support", true, true );
 
 //Tank variables
 const paladin = new Job("Paladin", "Tank", "Support")
