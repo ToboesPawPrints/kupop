@@ -27,7 +27,15 @@ class Tank {
         this.type = type,
         this.style = style
     }
-}
+};
+
+class Healer {
+    constructor(name, type, style) {
+        this.name = name,
+        this.type = type,
+        this.style = style
+    }
+};
 
 
 const redMage = new DPS("Red Made", "Support", "Ranged");
