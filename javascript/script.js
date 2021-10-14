@@ -1,10 +1,10 @@
-function message() {
+/*function message() {
     alert("Welcome to Kupop!  This site is currently underconstruction, but please feel free to have a look around!");
 }
 $.carousel('pause').carousel({
 
 });
-
+*/
 
 // Name is the name of the job
 // Role is support, DPS, or tanky
@@ -21,11 +21,13 @@ class Job {
 //
 
 class DPS extends Job {
-    constructor(name, role, focus, caster, ranged){
+    constructor(name, role, focus){
         super(name, role, focus);
         this.caster = true,
         this.ranged = true;
-
+    }
+    see() {
+        console.log(`${this.name} is a ${this.role} and it focuses on ${this.focus}.  ${this.caster}`)
     }
 }
 
