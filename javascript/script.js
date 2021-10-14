@@ -20,6 +20,10 @@ class Job {
 
 //
 
+//Create TWO if statement methods to pop out whether or not class is
+//ranged and a caster and translate that into yes or no to be 
+//used in a template literal.
+
 class DPS extends Job {
     constructor(name, role, focus){
         super(name, role, focus);
